@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ruchaadfcentr"
+		},
+		"ls_AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"ls_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://ruchasta.dfs.core.windows.net/"
+		},
+		"ls_dataset_on_prem_properties_typeProperties_host": {
+			"value": "C:\\"
+		},
+		"ls_dataset_on_prem_properties_typeProperties_userId": {
+			"value": "DESKTOP-AJ37367\\X550C"
+		},
+		"ls_onprem_properties_typeProperties_host": {
+			"value": "C:\\"
+		},
+		"ls_onprem_properties_typeProperties_userId": {
+			"value": "DESKTOP-AJ37367\\X550C"
+		},
+		"ls_onprem_kv_properties_typeProperties_baseUrl": {
+			"value": "https://ruchakv.vault.azure.net/"
+		}
+	}
+}
