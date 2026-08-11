@@ -1,0 +1,15 @@
+{
+	"name": "ruchaadfcentr",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "566f7e5d-cf47-42f3-b450-0221e2658b06",
+		"tenantId": "a15afc56-3153-479b-bf50-acf10776c4c8"
+	}
+}
